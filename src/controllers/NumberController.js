@@ -21,6 +21,6 @@ export function processSum(req,res) {
     console.log(req.body);
     var a = req.body.x;
     var b = req.body.y
-    var c = sum(a,b);
-    res.status(StatusCodes.OK).json({ sum: c });
+    var result = sum(a,b);
+    res.status(StatusCodes.OK).json({ sum: result });
 }

@@ -1,9 +1,9 @@
 export function factorial(n){
-    var f=1;
+    var fact=1;
     for(var i=1;i<=n;i++){
-        f=f*i;
+        fact=fact*i;
     }
-    return f;
+    return fact;
 }
 
 export function sum(a,b) {
